@@ -5,20 +5,18 @@ This plugin uses pure javascript to replace sections of specific formatted html 
 Markdown formatted like this in the Ghost editor
 
 ```markdown
+    # [CSharp](#tab/csharp)
+    ```csharp
+    var my = 5;
+    ```
 
-# [CSharp](#tab/csharp)
-```csharp
-var my = 5;
+    # [GoLang](#tab/golang)
+    ```go
+    my = 5
+    ```
 ```
 
-# [GoLang](#tab/golang)
-```go
-my = 5
-```
-
-```
-
-will produce this content in html
+Will produce this content in html
 
 ```html
 <!--kg-card-begin: markdown-->
