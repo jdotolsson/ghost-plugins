@@ -1,0 +1,34 @@
+.tab-buttons {
+    display: flex;
+}
+
+.tab-buttons button {
+    cursor: pointer;
+    padding: 10px;
+    border: none;
+    margin-right: -1px;
+    /* Fixes a small visual glitch */
+    border-radius: 0;
+    background-color: transparent;
+}
+
+.tab-content {
+    border: 1px solid #ccc;
+    padding: 15px;
+    border-radius: 0;
+}
+
+.tab {
+    display: none;
+}
+
+.tab.active {
+    display: block;
+}
+
+.tab-buttons  button.active {
+    border: 1px solid #ccc;
+    border-bottom: none;
+    border-top: 3px solid #3498db;
+    /* Blue highlight */
+}
