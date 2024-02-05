@@ -2,7 +2,7 @@
     display: flex;
 }
 
-.tab-buttons button {
+.tab-button {
     cursor: pointer;
     padding: 10px;
     border: none;
@@ -26,7 +26,7 @@
     display: block;
 }
 
-.tab-buttons  button.active {
+.tab-button.active {
     border: 1px solid #ccc;
     border-bottom: none;
     border-top: 3px solid #3498db;
