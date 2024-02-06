@@ -43,5 +43,5 @@ This plugin will replace the groups and sections with tabbed content
 
 ## Installation
 
-1. Put the link to the style sheet in header of code injection.
-2. Put the link to the script file in the footer section of code injection
+1. Put the style header of code injection.
+2. Put the script footer section of code injection

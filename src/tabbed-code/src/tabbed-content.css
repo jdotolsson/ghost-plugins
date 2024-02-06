@@ -7,7 +7,6 @@
     padding: 10px;
     border: none;
     margin-right: -1px;
-    /* Fixes a small visual glitch */
     border-radius: 0;
     background-color: transparent;
 }
@@ -29,6 +28,5 @@
 .tab-button.active {
     border: 1px solid #ccc;
     border-bottom: none;
-    border-top: 3px solid #3498db;
-    /* Blue highlight */
+    border-top: 3px solid #de3926;
 }
